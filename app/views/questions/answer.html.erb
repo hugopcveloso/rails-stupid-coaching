@@ -1,0 +1,17 @@
+
+
+
+  <h1 class = 'text-center'>Stupid Coaching</h1>
+
+  <div class="container">
+
+    <p id = question class = 'text-align'> <%= params[:question]%> </p>
+    <p id = author>-You</p>
+    <p id = answer> <%= @user_answer %></p>
+    <p id = author>Your Coach</p>
+
+<div class = 'btn'>
+  <%= link_to "-> Ask a new question", ask_path %>
+</div>
+</div>
+
